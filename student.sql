@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2024 at 01:44 PM
+-- Generation Time: Jun 02, 2024 at 02:44 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -97,17 +97,6 @@ CREATE TABLE `student_details` (
   `gender` varchar(7) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT 'MALE',
   `nationality` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data for table `student_details`
---
-
-INSERT INTO `student_details` (`eid`, `rno`, `name`, `phone`, `email`, `address`, `dob`, `fathername`, `hostelid`, `password`, `sem`, `cid`, `image`, `gender`, `nationality`) VALUES
-('1206114', 2, 'FathiBanki', '251986323280', 'fatihbankii@gmail.com', 'chiro', '2024-05-08', 'banki', '1206114', '12345678', 5, 3, '', 'female', 'Indian'),
-('1206116', 10, 'fenet kasaye', '251986323286', 'dude@gmail.com', 'chiro', '2024-05-01', 'banki', '1206116', 'password', 3, 4, '', 'female', 'NRI'),
-('1206117', 48, 'fenetfati', '251986323280', 'fatihbankii1@gmail.com', 'chiro', '2002-06-11', 'banki', '1206116', 'password1', 7, 6, '', 'female', 'NRI'),
-('1206118', 914, 'fenet kasayee', '8769873087078', 'Gaddisa914@gmail.com', 'chiro', '2024-05-09', 'banki', '914', 'qwertyuiop', 3, 5, '', 'female', 'Indian'),
-('1206132', 0, 'rajikumsaa', '251986323232', '', '', '0000-00-00', '', '', 'passwords', 0, 0, '', 'MALE', '');
 
 --
 -- Indexes for dumped tables
