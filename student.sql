@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 31, 2024 at 09:43 PM
+-- Generation Time: Jun 02, 2024 at 01:44 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -104,12 +104,10 @@ CREATE TABLE `student_details` (
 
 INSERT INTO `student_details` (`eid`, `rno`, `name`, `phone`, `email`, `address`, `dob`, `fathername`, `hostelid`, `password`, `sem`, `cid`, `image`, `gender`, `nationality`) VALUES
 ('1206114', 2, 'FathiBanki', '251986323280', 'fatihbankii@gmail.com', 'chiro', '2024-05-08', 'banki', '1206114', '12345678', 5, 3, '', 'female', 'Indian'),
-('1206115', 48, 'fathibanki', '25198632328', 'kd@gmail.com', 'chiro', '2001-07-26', 'banki', '1206115', '12345678', 5, 1, '', 'male', 'Indian'),
 ('1206116', 10, 'fenet kasaye', '251986323286', 'dude@gmail.com', 'chiro', '2024-05-01', 'banki', '1206116', 'password', 3, 4, '', 'female', 'NRI'),
 ('1206117', 48, 'fenetfati', '251986323280', 'fatihbankii1@gmail.com', 'chiro', '2002-06-11', 'banki', '1206116', 'password1', 7, 6, '', 'female', 'NRI'),
 ('1206118', 914, 'fenet kasayee', '8769873087078', 'Gaddisa914@gmail.com', 'chiro', '2024-05-09', 'banki', '914', 'qwertyuiop', 3, 5, '', 'female', 'Indian'),
-('134565', 58, 'brobrobro', '1234567889', 'kid@gmail.com', 'adama', '2024-05-02', 'bankiii', '914', 'asdfghjkl', 3, 7, '', 'female', 'Indian'),
-('305018', 18, 'refikaaliyyi', '251938095018', 'refika@gmail.com', 'ambo', '2003-02-20', 'fathi', '5018', '38095018', 1, 8, '', 'female', 'NRI');
+('1206132', 0, 'rajikumsaa', '251986323232', '', '', '0000-00-00', '', '', 'passwords', 0, 0, '', 'MALE', '');
 
 --
 -- Indexes for dumped tables
